@@ -8,25 +8,31 @@ namespace AOC2022 {
 
         static void Main( string[] args ) {
 
-            DayN prog;
+            string curDay = new DirectoryInfo("../../../../").GetDirectories().OrderByDescending(d => d.CreationTime).FirstOrDefault().Name;
 
-            Console.Write("Day to execute: ");
+            int d = int.Parse(curDay.Substring(3));
 
-            int d = int.Parse( Console.ReadLine() );
+            Console.Write($"Day to execute (enter for {d}): ");
+
+            string input = Console.ReadLine();
+
+            if ( !String.IsNullOrEmpty(input) ) {
+                d = int.Parse(input); 
+            }
+
             var objType = Type.GetType($"AOC2022.Day{d}, Day{d}");
 
-            Console.Write("Type any character for debug, hit return for prod: ");
+            DayN exProg = (DayN)Activator.CreateInstance(objType, $"../../../../Day{d}/example.txt");
+            exProg.Debug = true;
+            exProg.Run();
 
-            if ( Console.ReadLine() == String.Empty ) {
-                prog = (DayN)Activator.CreateInstance(objType, $"../../../../Day{d}/input.txt");
-                prog.Debug = false;
-            }
-            else {
-                prog = (DayN)Activator.CreateInstance(objType, $"../../../../Day{d}/example.txt");
-                prog.Debug = true;
-            }
+            Console.Write($"{Environment.NewLine}Anykey to run prog");
+            Console.ReadKey(true);
 
-            prog.Run();
+            DayN prodProg = (DayN)Activator.CreateInstance(objType, $"../../../../Day{d}/input.txt");
+            prodProg.Debug = false;
+            prodProg.Run();
+
         }
 
     }

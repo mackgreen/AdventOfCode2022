@@ -69,8 +69,6 @@ namespace AOC2022 {
             double entireRunms = outer_stopwatch.Elapsed.TotalMilliseconds;
             Console.WriteLine($"{newline}Entire run executed in {entireRunms.ToString("0.00", CultureInfo.InvariantCulture)}ms");
 
-            Console.WriteLine($"{newline}Hit any key to close this window...");
-            Console.ReadKey(true);
         }
         /// <summary>
         /// Use class data (extracted from input) to solve Part 1 of the puzzle.
