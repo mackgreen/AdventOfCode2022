@@ -52,8 +52,8 @@ namespace AOC2022 {
             int msgStart = 0;
 
             for (int i = 13; i < data.Length; i++) {
-                string packet = data.Substring(i - 13, 14);
-                if (packet.Distinct().Count() == 14) {
+                string msg = data.Substring(i - 13, 14);
+                if (msg.Distinct().Count() == 14) {
                     return i + 1;
                 }
             }
