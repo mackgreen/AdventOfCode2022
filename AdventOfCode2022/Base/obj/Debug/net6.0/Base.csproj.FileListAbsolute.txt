@@ -1,11 +1,11 @@
+C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\bin\Debug\net6.0\Base.deps.json
+C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\bin\Debug\net6.0\Base.dll
+C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\bin\Debug\net6.0\Base.pdb
 C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\obj\Debug\net6.0\Base.csproj.AssemblyReference.cache
 C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\obj\Debug\net6.0\Base.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\obj\Debug\net6.0\Base.AssemblyInfoInputs.cache
 C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\obj\Debug\net6.0\Base.AssemblyInfo.cs
 C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\obj\Debug\net6.0\Base.csproj.CoreCompileInputs.cache
-C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\bin\Debug\net6.0\Base.deps.json
-C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\bin\Debug\net6.0\Base.dll
-C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\bin\Debug\net6.0\Base.pdb
 C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\obj\Debug\net6.0\Base.dll
 C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\obj\Debug\net6.0\refint\Base.dll
 C:\Users\greenris\source\repos\AdventOfCode2022\AdventOfCode2022\Base\obj\Debug\net6.0\Base.pdb
